@@ -1,24 +1,29 @@
-# README
+# This is a sample Rails app built to refresh Rails concepts
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Getting started
 
-Things you may want to cover:
+Clone the repo and then install the needed gems:
 
-* Ruby version
+```
+$ git clone #{TODO: insert_repo_link}
+$ cd rails_refresh
+$ bundle install --without production
+```
 
-* System dependencies
+Migrate the database:
 
-* Configuration
+```
+$ rails db:migrate
+```
 
-* Database creation
+Run the test suite:
 
-* Database initialization
+```
+$ rails test
+```
 
-* How to run the test suite
+Run the app in a local server:
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+$ rails server
+```
