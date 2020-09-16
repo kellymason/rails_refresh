@@ -5,7 +5,7 @@
 Clone the repo and then install the needed gems:
 
 ```
-$ git clone #{TODO: insert_repo_link}
+$ git clone https://github.com/kellymason/rails_refresh.git
 $ cd rails_refresh
 $ bundle install --without production
 ```
