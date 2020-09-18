@@ -11,7 +11,9 @@ User.create!(
   email: "fakey@mcuserson.com",
   password: "password",
   password_confirmation: "password",
-  admin: true
+  admin: true,
+  activated: true,
+  activated_at: Time.zone.now
 )
 
 99.times do |n|
@@ -21,6 +23,8 @@ User.create!(
     name: name,
     email: "thing#{n+1}@catsinhats.com",
     password: password,
-    password_confirmation: password
+    password_confirmation: password,
+    activated: true,
+    activated_at: Time.zone.now
   )
 end
